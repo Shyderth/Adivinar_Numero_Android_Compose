@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Adivinar Numero</string>
+    <string name="titulo">Adivina un numero entre 1 y 50</string>
+    <string name="numero_adivinado">Numero</string>
+    <string name="enviar">Adivinar Numero</string>
+    <string name="Texto_pista">Tu numero es: %s</string>
+</resources>
