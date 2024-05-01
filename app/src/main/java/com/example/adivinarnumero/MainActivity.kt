@@ -153,9 +153,9 @@ fun NumberField(
 
 fun validarNumero(guesInt: Int, realInt: Int): String {
     val pista = when {
-        guesInt<realInt -> "menor"
-        guesInt>realInt -> "mayor"
-        else -> "Correcto. Otra vez"
+        guesInt<realInt -> "menor al generado"
+        guesInt>realInt -> "mayor al generado"
+        else -> "Correcto. Se ha generado otro número"
     }
 
     return pista
